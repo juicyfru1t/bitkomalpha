@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC1F55E11C02EB7600718895 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F55E01C02EB7600718895 /* AppDelegate.swift */; };
+		EC1F55E31C02EB7600718895 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F55E21C02EB7600718895 /* ViewController.swift */; };
+		EC1F55E61C02EB7600718895 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1F55E41C02EB7600718895 /* Main.storyboard */; };
+		EC1F55E81C02EB7600718895 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC1F55E71C02EB7600718895 /* Assets.xcassets */; };
+		EC1F55EB1C02EB7600718895 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC1F55E91C02EB7600718895 /* LaunchScreen.storyboard */; };
+		EC1F55F61C02EB7600718895 /* bitkomprealphaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F55F51C02EB7600718895 /* bitkomprealphaTests.swift */; };
+		EC1F56011C02EB7600718895 /* bitkomprealphaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC1F56001C02EB7600718895 /* bitkomprealphaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC1F55F21C02EB7600718895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1F55D51C02EB7600718895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1F55DC1C02EB7600718895;
+			remoteInfo = bitkomprealpha;
+		};
+		EC1F55FD1C02EB7600718895 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC1F55D51C02EB7600718895 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC1F55DC1C02EB7600718895;
+			remoteInfo = bitkomprealpha;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC1F55DD1C02EB7600718895 /* bitkomprealpha.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bitkomprealpha.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1F55E01C02EB7600718895 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC1F55E21C02EB7600718895 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC1F55E51C02EB7600718895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC1F55E71C02EB7600718895 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC1F55EA1C02EB7600718895 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC1F55EC1C02EB7600718895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1F55F11C02EB7600718895 /* bitkomprealphaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitkomprealphaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1F55F51C02EB7600718895 /* bitkomprealphaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitkomprealphaTests.swift; sourceTree = "<group>"; };
+		EC1F55F71C02EB7600718895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC1F55FC1C02EB7600718895 /* bitkomprealphaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bitkomprealphaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC1F56001C02EB7600718895 /* bitkomprealphaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bitkomprealphaUITests.swift; sourceTree = "<group>"; };
+		EC1F56021C02EB7600718895 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC1F55DA1C02EB7600718895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F55EE1C02EB7600718895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F55F91C02EB7600718895 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC1F55D41C02EB7600718895 = {
+			isa = PBXGroup;
+			children = (
+				EC1F55DF1C02EB7600718895 /* bitkomprealpha */,
+				EC1F55F41C02EB7600718895 /* bitkomprealphaTests */,
+				EC1F55FF1C02EB7600718895 /* bitkomprealphaUITests */,
+				EC1F55DE1C02EB7600718895 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC1F55DE1C02EB7600718895 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F55DD1C02EB7600718895 /* bitkomprealpha.app */,
+				EC1F55F11C02EB7600718895 /* bitkomprealphaTests.xctest */,
+				EC1F55FC1C02EB7600718895 /* bitkomprealphaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC1F55DF1C02EB7600718895 /* bitkomprealpha */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F55E01C02EB7600718895 /* AppDelegate.swift */,
+				EC1F55E21C02EB7600718895 /* ViewController.swift */,
+				EC1F55E41C02EB7600718895 /* Main.storyboard */,
+				EC1F55E71C02EB7600718895 /* Assets.xcassets */,
+				EC1F55E91C02EB7600718895 /* LaunchScreen.storyboard */,
+				EC1F55EC1C02EB7600718895 /* Info.plist */,
+			);
+			path = bitkomprealpha;
+			sourceTree = "<group>";
+		};
+		EC1F55F41C02EB7600718895 /* bitkomprealphaTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F55F51C02EB7600718895 /* bitkomprealphaTests.swift */,
+				EC1F55F71C02EB7600718895 /* Info.plist */,
+			);
+			path = bitkomprealphaTests;
+			sourceTree = "<group>";
+		};
+		EC1F55FF1C02EB7600718895 /* bitkomprealphaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC1F56001C02EB7600718895 /* bitkomprealphaUITests.swift */,
+				EC1F56021C02EB7600718895 /* Info.plist */,
+			);
+			path = bitkomprealphaUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC1F55DC1C02EB7600718895 /* bitkomprealpha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1F56051C02EB7600718895 /* Build configuration list for PBXNativeTarget "bitkomprealpha" */;
+			buildPhases = (
+				EC1F55D91C02EB7600718895 /* Sources */,
+				EC1F55DA1C02EB7600718895 /* Frameworks */,
+				EC1F55DB1C02EB7600718895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = bitkomprealpha;
+			productName = bitkomprealpha;
+			productReference = EC1F55DD1C02EB7600718895 /* bitkomprealpha.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC1F55F01C02EB7600718895 /* bitkomprealphaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1F56081C02EB7600718895 /* Build configuration list for PBXNativeTarget "bitkomprealphaTests" */;
+			buildPhases = (
+				EC1F55ED1C02EB7600718895 /* Sources */,
+				EC1F55EE1C02EB7600718895 /* Frameworks */,
+				EC1F55EF1C02EB7600718895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1F55F31C02EB7600718895 /* PBXTargetDependency */,
+			);
+			name = bitkomprealphaTests;
+			productName = bitkomprealphaTests;
+			productReference = EC1F55F11C02EB7600718895 /* bitkomprealphaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC1F55FB1C02EB7600718895 /* bitkomprealphaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC1F560B1C02EB7600718895 /* Build configuration list for PBXNativeTarget "bitkomprealphaUITests" */;
+			buildPhases = (
+				EC1F55F81C02EB7600718895 /* Sources */,
+				EC1F55F91C02EB7600718895 /* Frameworks */,
+				EC1F55FA1C02EB7600718895 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC1F55FE1C02EB7600718895 /* PBXTargetDependency */,
+			);
+			name = bitkomprealphaUITests;
+			productName = bitkomprealphaUITests;
+			productReference = EC1F55FC1C02EB7600718895 /* bitkomprealphaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC1F55D51C02EB7600718895 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Alexander Khodko";
+				TargetAttributes = {
+					EC1F55DC1C02EB7600718895 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 9KJ74TVHAH;
+					};
+					EC1F55F01C02EB7600718895 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 9KJ74TVHAH;
+						TestTargetID = EC1F55DC1C02EB7600718895;
+					};
+					EC1F55FB1C02EB7600718895 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 9KJ74TVHAH;
+						TestTargetID = EC1F55DC1C02EB7600718895;
+					};
+				};
+			};
+			buildConfigurationList = EC1F55D81C02EB7600718895 /* Build configuration list for PBXProject "bitkomprealpha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC1F55D41C02EB7600718895;
+			productRefGroup = EC1F55DE1C02EB7600718895 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC1F55DC1C02EB7600718895 /* bitkomprealpha */,
+				EC1F55F01C02EB7600718895 /* bitkomprealphaTests */,
+				EC1F55FB1C02EB7600718895 /* bitkomprealphaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC1F55DB1C02EB7600718895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1F55EB1C02EB7600718895 /* LaunchScreen.storyboard in Resources */,
+				EC1F55E81C02EB7600718895 /* Assets.xcassets in Resources */,
+				EC1F55E61C02EB7600718895 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F55EF1C02EB7600718895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F55FA1C02EB7600718895 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC1F55D91C02EB7600718895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1F55E31C02EB7600718895 /* ViewController.swift in Sources */,
+				EC1F55E11C02EB7600718895 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F55ED1C02EB7600718895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1F55F61C02EB7600718895 /* bitkomprealphaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC1F55F81C02EB7600718895 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1F56011C02EB7600718895 /* bitkomprealphaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC1F55F31C02EB7600718895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1F55DC1C02EB7600718895 /* bitkomprealpha */;
+			targetProxy = EC1F55F21C02EB7600718895 /* PBXContainerItemProxy */;
+		};
+		EC1F55FE1C02EB7600718895 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC1F55DC1C02EB7600718895 /* bitkomprealpha */;
+			targetProxy = EC1F55FD1C02EB7600718895 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC1F55E41C02EB7600718895 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1F55E51C02EB7600718895 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC1F55E91C02EB7600718895 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC1F55EA1C02EB7600718895 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC1F56031C02EB7600718895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC1F56041C02EB7600718895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC1F56061C02EB7600718895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bitkomprealpha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.jf.bitkomprealpha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC1F56071C02EB7600718895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = bitkomprealpha/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.jf.bitkomprealpha;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC1F56091C02EB7600718895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bitkomprealphaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.jf.bitkomprealphaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitkomprealpha.app/bitkomprealpha";
+			};
+			name = Debug;
+		};
+		EC1F560A1C02EB7600718895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = bitkomprealphaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.jf.bitkomprealphaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/bitkomprealpha.app/bitkomprealpha";
+			};
+			name = Release;
+		};
+		EC1F560C1C02EB7600718895 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bitkomprealphaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.jf.bitkomprealphaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bitkomprealpha;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EC1F560D1C02EB7600718895 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = bitkomprealphaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ru.jf.bitkomprealphaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = bitkomprealpha;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC1F55D81C02EB7600718895 /* Build configuration list for PBXProject "bitkomprealpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1F56031C02EB7600718895 /* Debug */,
+				EC1F56041C02EB7600718895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC1F56051C02EB7600718895 /* Build configuration list for PBXNativeTarget "bitkomprealpha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1F56061C02EB7600718895 /* Debug */,
+				EC1F56071C02EB7600718895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC1F56081C02EB7600718895 /* Build configuration list for PBXNativeTarget "bitkomprealphaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1F56091C02EB7600718895 /* Debug */,
+				EC1F560A1C02EB7600718895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC1F560B1C02EB7600718895 /* Build configuration list for PBXNativeTarget "bitkomprealphaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC1F560C1C02EB7600718895 /* Debug */,
+				EC1F560D1C02EB7600718895 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC1F55D51C02EB7600718895 /* Project object */;
+}
